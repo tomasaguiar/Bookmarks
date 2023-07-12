@@ -21,7 +21,7 @@ export const metadata = (props: AppLayoutProps): Metadata => {
 export const AppLayout = (props: AppLayoutProps) => {
   return (
     <main className="w-screen h-screen dark:from-darkBackground-topaccent dark:to-darkBackground-bottomaccent bg-gradient-to-b from-lightBackground-topaccent to-lightBackground-bottomaccent">
-      <div className="mx-20">{props.children}</div>
+      <div className="mx-[400px] pt-[150px]">{props.children}</div>
     </main>
   );
 };
