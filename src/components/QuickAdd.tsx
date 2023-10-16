@@ -1,9 +1,6 @@
 "use client";
 import { LightningA } from "@phosphor-icons/react";
 import { useState } from "react";
-import { OnCreateBookmark } from "@/hooks/useBookmark";
-
-import { trpc } from "@/utils/trpc";
 
 interface QuickAddProps {
   title: string;
